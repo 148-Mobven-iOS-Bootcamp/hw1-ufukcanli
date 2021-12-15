@@ -14,12 +14,16 @@ struct SampleView: View {
             Text("Hello, again!")
             
             Button {
-                print("Hello!")
+                action()
             } label: {
                 Text("Button")
             }
             
             Text("Another text")
         }
+    }
+    
+    func action() {
+        print("Hello, World!")
     }
 }

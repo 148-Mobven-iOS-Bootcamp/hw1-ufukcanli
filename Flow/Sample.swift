@@ -12,6 +12,12 @@ struct SampleView: View {
         VStack {
             Text("Hello, World!")
             Text("Hello, again!")
+            
+            Button {
+                print("Hello!")
+            } label: {
+                Text("Button")
+            }
         }
     }
 }

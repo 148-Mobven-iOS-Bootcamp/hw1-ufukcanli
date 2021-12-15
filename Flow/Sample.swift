@@ -10,11 +10,15 @@ import SwiftUI
 struct SampleView: View {
     var body: some View {
         VStack {
+            Spacer()
+            
             Button {
                 action()
             } label: {
                 Text("Button")
             }
+            
+            Spacer()
         }
     }
     

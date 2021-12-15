@@ -20,6 +20,10 @@ struct SampleView: View {
             }
             
             Text("Another text")
+            
+            Image(systemName: "house")
+                .resizable()
+                .frame(width: 45, height: 45)
         }
     }
 }

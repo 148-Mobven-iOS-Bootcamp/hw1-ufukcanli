@@ -10,8 +10,7 @@ import SwiftUI
 struct SampleView: View {
     var body: some View {
         VStack {
-            Text("Hello, World!")
-            Text("Hello, again!")
+            Spacer()
             
             Button {
                 action()
@@ -19,11 +18,7 @@ struct SampleView: View {
                 Text("Button")
             }
             
-            Text("Another text")
-            
-            Image(systemName: "house")
-                .resizable()
-                .frame(width: 45, height: 45)
+            Spacer()
         }
     }
     

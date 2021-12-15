@@ -10,20 +10,11 @@ import SwiftUI
 struct SampleView: View {
     var body: some View {
         VStack {
-            Text("Hello, World!")
-            Text("Hello, again!")
-            
             Button {
                 action()
             } label: {
                 Text("Button")
             }
-            
-            Text("Another text")
-            
-            Image(systemName: "house")
-                .resizable()
-                .frame(width: 45, height: 45)
         }
     }
     

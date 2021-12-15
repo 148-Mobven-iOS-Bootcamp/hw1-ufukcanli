@@ -14,7 +14,7 @@ struct SampleView: View {
             Text("Hello, again!")
             
             Button {
-                print("Hello!")
+                action()
             } label: {
                 Text("Button")
             }
@@ -25,5 +25,9 @@ struct SampleView: View {
                 .resizable()
                 .frame(width: 45, height: 45)
         }
+    }
+    
+    func action() {
+        print("Hello, World!")
     }
 }

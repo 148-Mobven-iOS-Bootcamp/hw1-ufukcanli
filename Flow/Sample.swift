@@ -18,6 +18,8 @@ struct SampleView: View {
             } label: {
                 Text("Button")
             }
+            
+            Text("Another text")
         }
     }
 }
